@@ -1,24 +1,25 @@
-Installation guide and running the chatbot
+# Installation guide and running the chatbot
 
 
-==>	This chat bot consists of four parts, dialogflow, solr api, botcopy, node.js:
-•	Botcopy is a third-party application which provides the customized bot for front end which will be soon replaced by customized bot.
-•	Dialogflow is the intelligence part which will be understanding the intentions of user. 
-•	Solr api software is used for backend which acts like a search engine for user queries.
-•	Node.js is used as a back-end code for function calls in webhook.
+## This chat bot consists of four parts
+> dialogflow, solr api, botcopy, node.js:
 
-==>	Download solr here:
-https://lucene.apache.org/solr/downloads.html
-	Installation commands can be found here:
-https://lucene.apache.org/solr/guide/8_6/solr-tutorial.html
+-	Botcopy is a third-party application which provides the customized bot for front end which will be soon replaced by customized bot.
+-	Dialogflow is the intelligence part which will be understanding the intentions of user. 
+-	Solr api software is used for backend which acts like a search engine for user queries.
+-	Node.js is used as a back-end code for function calls in webhook.
 
-==> Basic steps:
+### Download solr here:
 
-•	Unzipping the Solr: unzip -q solr-8.6.0.zip
+- https://lucene.apache.org/solr/downloads.html
+#### Installation commands can be found here:
+- https://lucene.apache.org/solr/guide/8_6/solr-tutorial.html
+---
+### Basic steps:
 
-•	Change the working directory: cd solr-8.6.0/
-
-•	To launch Solr: 
+- Unzipping the Solr: unzip -q solr-8.6.0.zip
+- Change the working directory: cd solr-8.6.0/
+- To launch Solr: 
 
   o bin/solr start -e cloud on Unix or MacOS
  
